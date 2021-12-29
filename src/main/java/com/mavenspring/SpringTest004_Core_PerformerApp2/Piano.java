@@ -11,7 +11,13 @@ public class Piano implements Instrument {
 	
 	public void play() {
 		System.out.println("Piano playing");
-
 	}
+
+	@Override
+	public String toString() {
+		return "Piano";
+	}
+	
+	
 
 }

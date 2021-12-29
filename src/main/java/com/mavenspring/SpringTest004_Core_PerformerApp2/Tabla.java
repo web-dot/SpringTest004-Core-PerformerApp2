@@ -13,4 +13,11 @@ public class Tabla implements Instrument {
 		System.out.println("Tabla playing");
 	}
 
+	@Override
+	public String toString() {
+		return "Tabla";
+	}
+	
+	
+
 }

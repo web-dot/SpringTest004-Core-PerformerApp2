@@ -13,4 +13,11 @@ public class Guitar implements Instrument {
 		System.out.println("Guitar playing");
 	}
 
+	@Override
+	public String toString() {
+		return "Guitar";
+	}
+	
+	
+
 }
