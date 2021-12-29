@@ -1,13 +1,16 @@
 package com.mavenspring.SpringTest004_Core_PerformerApp2;
 
-/**
- * Hello world!
- *
- */
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	//commit01-ApplicationContext started and refreshed
+    	System.out.println("Application context--> start");
+    	ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
+    	System.out.println("Application context--> end");
+    	
     }
 }
