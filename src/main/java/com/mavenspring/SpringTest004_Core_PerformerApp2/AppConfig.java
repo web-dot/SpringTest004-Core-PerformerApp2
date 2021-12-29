@@ -10,6 +10,6 @@ public class AppConfig {
 	
 	@Bean
 	public String getName() {
-		return "page";
+		return "Hariprasad Chaurasia";
 	}
 }

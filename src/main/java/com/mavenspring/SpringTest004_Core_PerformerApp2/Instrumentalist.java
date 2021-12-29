@@ -9,7 +9,7 @@ public class Instrumentalist implements Performer {
 	
 	private String name;
 	@Autowired
-	@Qualifier("guitar")
+	@Qualifier("flute")
 	Instrument instrument;
 
 	public Instrumentalist() {
